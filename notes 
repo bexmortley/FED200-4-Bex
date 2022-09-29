@@ -1,0 +1,16 @@
+//schalk explaining classes
+
+//class Dog {
+  //  legs = 4;
+  //  bark() {
+  //      console.log('Bark!')
+  //  }
+// }
+
+//class JohnnyTheTreeLegPug extends Dog {
+  //  legs = 3;
+// }
+
+//const example = new JohnnyTheTreeLegPug()
+
+//example.bark()
