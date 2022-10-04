@@ -1,25 +1,29 @@
-import {LitElement, html} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js';
+import {
+  LitElement,
+  html,
+} from "https://cdn.jsdelivr.net/gh/lit/dist@2/core/lit-core.min.js";
 
-class BexCustom extends LitElement {
-    static properties = {
-        count: {type: Number, state: true }
+class Componet extends LitElement {
+  render() {
+    return html` 
+        <div>
+           <value-counter label = "Cookies" count="3"> </value-counter>
+           <value-counter label = "Milk" count=""> </value-counter>
 
-    }
-    render() {
-        return html`<div> ${this.label} ${this.count} </div>`;
-    }
+        </div> `;
+  }
 }
 
 // class BexCustom extends HTMLElement {
 //     inner = this.attachShadow({ mode: "closed" });
-//     count = 0; 
+//     count = 0;
 
 //     connectedCallback() {
 //         this.inner.innerHTML = `
 //         <style>
 //         div {
 //             display: flex;
-//             border: 1px solid blue; 
+//             border: 1px solid blue;
 //         }
 //         </style>
 
@@ -39,4 +43,4 @@ class BexCustom extends LitElement {
 //     }
 // }
 
-customElements.define("bex-custom", BexCustom);
+customElements.define("tmin-app", Componet);

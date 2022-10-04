@@ -1,1 +1,2 @@
-import "./componet/bex-custom.js";
+import "./componet/tmin-app.js";
+import "./componet/value-counter.js";
